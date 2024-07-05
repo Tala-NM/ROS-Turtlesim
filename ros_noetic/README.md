@@ -8,35 +8,33 @@ To follow my process, open 4 terminal windows and execute the following commands
 
 2. **Run ROS Master in the First Terminal:**
 
-    
-bash
+```bash
     roscore
+```
 
 
 3. **Run the Talker Node in the Second Terminal:**
 
-    
-bash
+ ```bash
     rosrun rospy_tutorials talker
+```
 
 
     ![Talker Node](IMG_5036.jpg)
 
 4. **Visualize the ROS Graph in the Fourth Terminal:**
 
-    
-bash
-    rqt_graph
-
+```bash
+       rqt_graph
+```
 
     ![ROS Graph](IMG_5037.jpg)
 
 5. **Run the Listener Node in the Third Terminal:**
 
-    
-bash
+ ```bash
     rosrun rospy_tutorials listener
-
+```
 
     ![Listener Node](IMG_5038.jpg)
 
@@ -44,36 +42,32 @@ bash
 
     In the first and third terminals, run:
 
-    
-bash
+ ```bash
     clear
+```
 
 
 7. **Start the Turtlesim Node in the First Terminal:**
 
-    
-bash
+ ```bash
     rosrun turtlesim turtlesim_node
-
+```
 
     This will open the turtlesim window:
     ![Turtlesim Node](IMG_5039.jpg)
 
 8. **Visualize the Updated ROS Graph in the Fourth Terminal:**
 
-    
-bash
+```bash
     rqt_graph
-
-
+```
     ![Updated ROS Graph](IMG_5043.jpg)
 
 9. **Control the Turtle in the Third Terminal:**
 
-    
-bash
+```bash
     rosrun turtlesim turtle_teleop_key
-
+```
 
     Use the arrow keys to move the turtle around. Here are some photos of the turtle's movement:        
     ![Turtle Moving](IMG_5041.jpg)
