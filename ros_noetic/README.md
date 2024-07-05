@@ -19,8 +19,7 @@ To follow my process, open 4 terminal windows and execute the following commands
     rosrun rospy_tutorials talker
 ```
 
-
-    ![Talker Node](IMG_5036.jpg)
+![Talker Node](IMG_5036.jpg)
 
 4. **Visualize the ROS Graph in the Fourth Terminal:**
 
@@ -28,7 +27,7 @@ To follow my process, open 4 terminal windows and execute the following commands
        rqt_graph
 ```
 
-    ![ROS Graph](IMG_5037.jpg)
+![ROS Graph](IMG_5037.jpg)
 
 5. **Run the Listener Node in the Third Terminal:**
 
@@ -36,7 +35,7 @@ To follow my process, open 4 terminal windows and execute the following commands
     rosrun rospy_tutorials listener
 ```
 
-    ![Listener Node](IMG_5038.jpg)
+![Listener Node](IMG_5038.jpg)
 
 6. **Clear and Restart Terminals:**
 
@@ -54,14 +53,14 @@ To follow my process, open 4 terminal windows and execute the following commands
 ```
 
     This will open the turtlesim window:
-    ![Turtlesim Node](IMG_5039.jpg)
+![Turtlesim Node](IMG_5039.jpg)
 
 8. **Visualize the Updated ROS Graph in the Fourth Terminal:**
 
 ```bash
     rqt_graph
 ```
-    ![Updated ROS Graph](IMG_5043.jpg)
+![Updated ROS Graph](IMG_5043.jpg)
 
 9. **Control the Turtle in the Third Terminal:**
 
@@ -70,7 +69,7 @@ To follow my process, open 4 terminal windows and execute the following commands
 ```
 
     Use the arrow keys to move the turtle around. Here are some photos of the turtle's movement:        
-    ![Turtle Moving](IMG_5041.jpg)
+![Turtle Moving](IMG_5041.jpg)
 
 ### Additional Information
 
